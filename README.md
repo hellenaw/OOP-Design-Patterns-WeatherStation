@@ -9,7 +9,7 @@ This project demonstrates a clean, pattern-driven object-oriented architecture. 
 git clone https://github.com/hellenaw/OOP-Design-Patterns-WeatherStation.git
 
 ## 2. Navigate to a milestone folder
-cd milestone-6b-adapter-pattern/src
+cd milestone-6-adapter-pattern/src
 
 ## 3. Compile and run the program
 ## Include all .jar files from the lib/ directory in the classpath
@@ -48,11 +48,9 @@ cd milestone-6b-adapter-pattern/src
 │   └── src/
 ├── milestone-5/
 │   └── src/
-├── milestone-6a-factory-pattern/
+├── milestone-6-factory-pattern/
 │   └── src/
-├── milestone-6b-adapter-pattern/
-│   └── src/
-├── milestone-7/
+├── milestone-7-adapter-pattern/
 │   └── src/
 ├── lib/                         # Contains required .jar files for JavaFX and Swing
 └── README.md                    # You are here
