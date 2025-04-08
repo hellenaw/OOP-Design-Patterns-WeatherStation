@@ -1,4 +1,4 @@
-# Milestone 6b – Adapter & Factory Patterns
+# Milestone 7 – Adapter & Factory Patterns
 
 ## Overview
 

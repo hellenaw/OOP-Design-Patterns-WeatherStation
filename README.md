@@ -4,6 +4,23 @@
 
 This project demonstrates a clean, pattern-driven object-oriented architecture. It focuses on principles like abstraction, encapsulation, and loose coupling — not domain-specific logic. While the example simulates a weather station, the core of this project is its modular and maintainable design.
 
+## How to Use
+** 1. Clone the repository **
+- git clone https://github.com/hellenaw/your-repo-name.git
+- cd your-repo-name
+
+** 2. Navigate to a milestone folder **
+- cd milestone-6b-adapter-pattern/src
+
+**  3. Compile and run the program **
+** Include all .jar files from the lib/ directory in the classpath **
+
+- javac -cp ".:../../lib/*" edu/rit/croatia/swen383/g3/ws/WeatherStationRunner.java
+- java -cp ".:../../lib/*" edu.rit.croatia.swen383.g3.ws.WeatherStationRunner
+
+** On Windows, replace : with ; in the classpath:**
+javac -cp ".;../../lib/*" ...
+
 ## Key Concepts
 
 - **Program to Interface**: All sensor and UI components depend on interfaces (`Sensor`, `Observer`) rather than implementations.
@@ -20,13 +37,30 @@ This project demonstrates a clean, pattern-driven object-oriented architecture. 
 | **Adapter**  | `HumiditySensor`                     | Wraps a third-party `HumidityReader` to match the internal `Sensor` API |
 
 ## Project Structure
-src/
-│
-├── observer/         → Observer pattern: Observer, Subject
-├── sensor/           → Sensors (including adapter) + Factory
-├── ui/               → Console/Swing/JavaFX UIs + UI Factory
-├── util/             → Measurement units, enums for clean type systems
-├── ws/               → WeatherStation (core logic and orchestration)
+<pre>
+```text
+├── milestone-1/
+│   └── src/
+├── milestone-2/
+│   └── src/
+├── milestone-3/
+│   └── src/
+├── milestone-4/
+│   └── src/
+├── milestone-5/
+│   └── src/
+├── milestone-6a-factory-pattern/
+│   └── src/
+├── milestone-6b-adapter-pattern/
+│   └── src/
+├── milestone-7/
+│   └── src/
+├── lib/                         # Contains required .jar files for JavaFX and Swing
+└── README.md                    # You are here
+```
+</pre>
+
+Each milestone builds incrementally on the previous one, with Milestone 7 being the final version.
 
 ## Highlights
 
