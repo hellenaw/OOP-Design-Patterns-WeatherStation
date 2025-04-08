@@ -5,21 +5,21 @@
 This project demonstrates a clean, pattern-driven object-oriented architecture. It focuses on principles like abstraction, encapsulation, and loose coupling — not domain-specific logic. While the example simulates a weather station, the core of this project is its modular and maintainable design.
 
 ## How to Use
-** 1. Clone the repository **
-- git clone https://github.com/hellenaw/your-repo-name.git
-- cd your-repo-name
+# 1. Clone the repository
+git clone https://github.com/hellenaw/your-repo-name.git
+cd your-repo-name
 
-** 2. Navigate to a milestone folder **
-- cd milestone-6b-adapter-pattern/src
+# 2. Navigate to a milestone folder
+cd milestone-6b-adapter-pattern/src
 
-**  3. Compile and run the program **
-** Include all .jar files from the lib/ directory in the classpath **
+# 3. Compile and run the program
+# Include all .jar files from the lib/ directory in the classpath
 
 - javac -cp ".:../../lib/*" edu/rit/croatia/swen383/g3/ws/WeatherStationRunner.java
 - java -cp ".:../../lib/*" edu.rit.croatia.swen383.g3.ws.WeatherStationRunner
 
-** On Windows, replace : with ; in the classpath:**
-javac -cp ".;../../lib/*" ...
+- On Windows, replace : with ; in the classpath:
+- javac -cp ".;../../lib/*" ...
 
 ## Key Concepts
 
