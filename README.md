@@ -7,7 +7,6 @@ This project demonstrates a clean, pattern-driven object-oriented architecture. 
 ## How to Use
 ## 1. Clone the repository
 git clone https://github.com/hellenaw/OOP-Design-Patterns-WeatherStation.git
-cd your-repo-name
 
 ## 2. Navigate to a milestone folder
 cd milestone-6b-adapter-pattern/src
